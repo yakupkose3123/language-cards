@@ -1,0 +1,12 @@
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    padding-top: 3rem;
+}
+li{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
