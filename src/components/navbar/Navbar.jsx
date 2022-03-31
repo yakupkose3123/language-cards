@@ -1,4 +1,4 @@
-import logo from "../../assests/react.svg"
+import logo from "../../assets/react.svg"
 import React from "react"
 import "./Navbar.css"
 
