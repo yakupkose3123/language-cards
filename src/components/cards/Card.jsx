@@ -10,7 +10,9 @@ const Card = () => {
 
   return (
     <div className='main-container'>
+      <div className="bars"></div>
         < Header />
+        
 
         <div className="container">
           <div className="row">
