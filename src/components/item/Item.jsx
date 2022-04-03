@@ -8,7 +8,12 @@ const Item = (props) => {
     const [showLogo, setshowLogo] = useState(true)
 
 
-    const showAnswer = () => setshowLogo(!showLogo)   // her seferinde tersine çevir kardeş 
+    const showAnswer = () => {
+      setshowLogo(!showLogo)   // her seferinde tersine çevir kardeş 
+      setInterval(() => {
+        setshowLogo(true)   
+      }, 5000);
+    }
     
 
   return (
